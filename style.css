@@ -489,6 +489,28 @@ aside span{
     margin-left: 61%;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 1%; 
+    }
+
+    #logo-fabrique {
+        width: 20%; 
+    }
+
+    nav ul li {
+        margin-right: 5%; 
+    }
+    
+    #paragraphe {
+        display: none; 
+    }
+}
+
 
 
 
