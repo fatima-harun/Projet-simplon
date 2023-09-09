@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplon Sénégal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="config.js" defer></script>
+    <script src="fichier.js" defer></script>
+</head>
+<!-- chaque partie de la maquette sera répartie dans une section -->
+<body>
+    <header aria-hidden="false">
+    <nav role="navigation" aria-label="breadcrumb">
+        <img src="logo_simplon.jpg" alt="logo_simplon" id="logo-fabrique">
+        <ul role="list">
+            <li role="listitem"><a href="">Accueil</a></li>
+            <li role="listitem"><a href="">Fabrique</a></li>
+            <li role="listitem"><a href="">Formations</a></li>
+            <li role="listitem"><a href="">Partenariats</a></li>
+            <li role="listitem" aria-currentt="page"><a href="">Espaces</a></li>
+            <li><box-icon name='search'></box-icon></li>
+            <li id="list-langue">
+                <select aria-label="choisir la langue française ou anglaise">
+                    <option value="Fr">Fr</option>
+                    <option value="En">En</option>
+                </select>
+                <button id="btn-contact">Contact</button>
+            </li>
+        </ul>
+    </nav>
+</header>
+  <!-- la section petite histoire -->
+      <section role="region">
+        <h1>La petite histoire</h1>
+        <div id="histoire">
+            <h2>L'ouverture de la fabrique <br><span id="année">2017</span></h2>
+            <h3 id="paragraphe"> <div id="partner">Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Maiores laboriosam deleniti, culpa perspiciatis nemo quos illum?
+                 Inventore non totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae
+                  saepe eaque, enim laudantium corrupti iure quisquam a amet reprehenderit atque
+                   fugiat?Idolorem molestiae saepe eaque, enim amet reprehenderit atque fugiat?</h3>
+               <p><box-icon type='solid' name='quote-single-left' color="pink" ></box-icon><box-icon name='quote-single-right' type='solid' color="pink"></box-icon>
+                Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Maiores laboriosam deleniti, 
+                culpa perspiciatis nemo quos illum? 
+                Inventore non totam ea, optio voluptates 
+                eveniet in sequi quasi dolorem molestiae 
+                saepe eaque, enim laudantium corrupti iure 
+                quisquam a amet reprehenderit atque 
+                fugiat?Idolorem molestiae saepe eaque, 
+                enim amet reprehenderit atque fugiat?
+                <box-icon name='quote-single-left' type='solid' color="grey"></box-icon><box-icon name='quote-single-right' type='solid' color="grey"></box-icon>
+            </p>
+                
+        </div>
+      </section>
+<!-- la section pédagogie -->
+      <section role="region">
+        <h2 class="titres">Notre pédagogie</h2>
+        <div id="pédagogie">
+          <div><iframe width="530" height="300" src="https://www.youtube.com/embed/daQ4PS1fpB4?si=Qllaj6n1Iw4lxOkN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+           <div>
+          <h3>La pédagogie active</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Maiores laboriosam deleniti, culpa perspiciatis 
+                nemo quos illum? Inventore non totam ea, optio 
+                voluptates eveniet in sequi quasi dolorem 
+                molestiae saepe eaque, enim laudantium corrupti 
+                iure quisquam a amet reprehenderit atque fugiat?
+                Inventore non totam ea, optio voluptates </p>
+            </div>
+        </div>
+      </section>
+<!-- la section des pliers -->
+      <section role="region">
+        <h2 id="plier-pédagogie">Les 6 pliers de notre pédagogie</h2>
+        <div id="section-box">
+        <div id="pliers">
+            <div class="box">
+                <span>01</span>
+                <h3>Devenir un professionnel compétent</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p>
+            </div>
+            <div class="box">
+                <span>02</span>
+                <h3>Se former pas l'action</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p></div>
+            <div class="box">
+                <span>03</span>
+                <h3>Valoriser les apprentissages</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p></div>
+            <div class="box">
+                <span>04</span>
+                <h3>Impliquer l'entreprise au plus tôt</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p></div>
+            <div class="box">
+                <span>05</span>
+                <h3>Accompagner avec une équipe</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p></div>
+            <div class="box">
+                <span>06</span>
+                <h3>Construire des collectifs d’apprenant</h3>
+                <p>Nous formons les apprenants à devenir 
+                    des professionnels compétents en 
+                    situation de travail, grâce à l’Approche 
+                    Par Compétences. </p></div>
+        </div>
+       <div><img src="apprenantes-simplon.jpg" alt="Groupes_d'étudiantes_de_simplon" id="étudiants-simplon"></div>
+        </div>
+      </section>
+<!-- la section des valeurs -->
+      <section role="region">
+        <h2 class="titres">Nos valeurs</h2>
+        <div id="valeur">
+        <div id="valeur-div">
+            <h3>Respect</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Maiores laboriosam deleniti, culpa 
+                perspiciatis nemo quos illum? Inventore non totam 
+                ea, optio voluptates eveniet in sequi quasi 
+                dolorem molestiae saepe eaque, enim laudantium 
+                corrupti iure quisquam a amet reprehenderit atque 
+                fugiat?Inventore non totam ea, optio voluptates 
+                eveniet in sequi quasi dolorem molestiae saepe 
+                eaque, enim laudantium corrupti iure quisquam a 
+                amet reprehenderit atque fugiat?</p>
+                <button role="button" id="btn-voir-plus">Voir plus</button>
+        </div>
+        <div>
+            <div class="respect">
+                <h4>01</h4>
+                <p><span>Respect</span><br>
+                    Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+            <div class="respect">
+                <h4>02</h4>
+                    <p><span>Respect</span><br>
+                        Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+            <div class="respect">
+                <h4>03</h4>
+                <p><span>Respect</span><br>
+                    Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+            <div class="respect">
+                <h4>04</h4>
+                <p><span>Respect</span><br>
+                    Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+        </div>
+    </div>
+      </section>
+<!-- la section des chiffres -->
+  <section role="region" id="evolution">
+        <h2 class="titres">Nos chiffres</h2>
+     <div id="chiffres">
+        <div >
+            <h2>50%</h2>
+            <p>De femmes dans les 
+                formations</p>
+        </div>
+        <div>
+            <h2>385</h2>
+            <p>Apprenant.es formé.es 
+                depuis l’ouverture dans le 
+                pays</p>
+        </div>
+        <div>
+            <h2>96</h2>
+            <p>Enfants sensibilisé.e.s au 
+                numérique</p>
+        </div>
+     </div>
+  </section>
+<!-- la section équipe -->
+  <section role="region">
+    <h2 class="titres">Notre Équipe</h2>
+    <h3 id="paragraphe-equipe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et <br>
+        recusandae quod eveniet sit</h3>
+        <div id="formateur">
+            <div class="profil-formateur">
+            <img src="ngoor.jpg" alt="" id="ngor">
+            <h4>Ngoor Seck <br> <span>Formateur</span></h4>
+            <p>Fermentum massa justo sit <br> amet risus morbi leo.</p>
+            <box-icon type='logo' name='twitter' color="crimson" class="icon"></box-icon>
+                <box-icon type='logo' name='facebook' color="crimson" class="icon"></box-icon>
+                <box-icon name='linkedin-square' type='logo' color='crimson' class="icon"></box-icon>
+            </div>
+            <div class="profil-formateur">
+                <img src="samba.jpg" alt="" id="samba">
+                <h4>Samba KANE <br> <span>Coach</span></h4>
+                <p>Fermentum massa justo sit <br> amet risus morbi leo.</p>
+                <box-icon type='logo' name='twitter' color="crimson" class="icon"></box-icon>
+                <box-icon type='logo' name='facebook' color="crimson" class="icon"></box-icon>
+                <box-icon name='linkedin-square' type='logo' color='crimson' class="icon"></box-icon>
+            </div>
+            <div class="profil-formateur">
+                <img src="sane.jpg" alt="" id="sane">
+            <h4>Seckou SANÉ <br> <span>Formateur</span></h4>
+            <p>Fermentum massa justo sit <br> amet risus morbi leo.</p>
+            <box-icon type='logo' name='twitter' color="crimson" class="icon"></box-icon>
+                <box-icon type='logo' name='facebook' color="crimson" class="icon"></box-icon>
+                <box-icon name='linkedin-square' type='logo' color='crimson' class="icon"></box-icon>
+            </div>
+        </div>
+  </section>
+<!-- la section recrutement -->
+  <section role="region">
+    <h2 class="titres">Recrutement</h2>
+ <div id="groupe-simplon">
+     <div>
+       <img src="ensemble-groupe-simplon.jpg" alt="l'ensemble de l'équipe simplon" id="photo-de-groupe">
+       <div id="offre">
+       <h3 id="cours">Offres de cours</h3>
+       <hr color="crimson">
+       <h4>Formateur référent <box-icon name='minus'></box-icon></h4>
+       <h5>Résumé du poste</h5>
+       <p>Unde temporibus amet est! Perferendis sapienteanimisperiores
+         dicta maxime doloremqueue ue pienteautofficia</p>
+         <ul>
+            <li><box-icon type='solid' name='book-bookmark' color="crimson" class="icone"></box-icon>CDD</li>
+            <li><box-icon name='briefcase-alt-2' type='solid' color='crimson' class="icone"></box-icon>Plein temps</li>
+            <li><box-icon name='time'color="crimson" class="icone"></box-icon>Dakar</li>
+            <li><box-icon type='solid' name='map'color="crimson" class="icone"></box-icon>XX/XY/ZZ</li>
+         </ul>
+         <button id="btn-postuler">Postuler</button>
+         <hr color="crimson">
+         <h4>Formateur référent <box-icon type='solid' name='plus-square'></box-icon></h4>
+         <hr color="crimson">
+         <h4>Formateur référent <box-icon type='solid' name='plus-square'></box-icon></h4>
+         </div>
+     </div>
+     <div id="rejoindre">
+       <h3>Pourquoi nous rejoindre ?</h3>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores 
+        laboriosam deleniti, culpa perspiciatis nemo quos illum? Inventore non 
+        totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae saepe 
+        eaque, enim laudantium corrupti iure quisquam a amet reprehenderit 
+        atque fugiat?Inventore non totam ea, optio voluptates eveniet in sequi qu
+        eaque, enim laudantium corrupti iure quisquam a amet reprehenderit 
+        atque fugiat?Inventore non totam ea, optio voluptates eveniet in sequi qu</p>
+        <form action="" aria-label="contact information">
+            <p>
+            <input type="text" name="prénom" placeholder="Prénom*" aria-label="prénom" aria-required="true" required id="input"> 
+            <input type="text" name="nom" placeholder="Nom*" aria-label="nom" aria-required="true" required id="input"></p>
+           <p><input type="tel" name="téléphone" placeholder="Tél*" aria-label="numéro de téléphone" aria-required="true" required id="input"> 
+            <input type="email" name="email" placeholder="Mail*" aria-label="email" aria-required="true" required id="input"></p>
+           <p id="paperclip"><box-icon name='paperclip' class="paperclip" color="crimson"></box-icon><button aria-label="bouton joindre un fichier" aria-required="true" required id="btn-joindrefichier">Joindre un fichier</button></p>
+            <textarea name="message" cols="60" rows="9" placeholder="Message*" aria-label="espace de messagerie"></textarea>
+           <p><input type="checkbox" id="Terms"><label for="Terms" aria-label="case à cocher" aria-required="true" required>I agree to <span>terms and policy</span>
+           </label></p>
+            <button aria-label="bouton rejoindre" id="btn-rejoindre">Rejoindre</button>
+            <p id="fields"> *These fields are required</p>
+        </form>
+    </div>
+ </div>
+ </section>
+<!-- la section partenaire -->
+  <section role="region">
+    <h2 class="titres">Nos partenaires</h2>
+    <div class="partner" id="partner1">
+        <div><img src="fondation-france.jpg" alt="logo de la fondation france s'engage" id="france"></div>
+        <div><img src="société-generale.jpg" alt="logo de la société generale" id="societe"></div>
+        <div><img src="orange.jpg" alt="logo du groupe orange" id="orange"></div>
+        <div><img src="aviva.jpg" alt="logo du groupe Aviva" id="aviva" ></div>
+        <div><img src="union-européenne.jpg" alt="logo de l'union européenne" id="union" ></div>
+    </div>
+    <div class="partner" id="partner2">
+        <div><img src="fondation-france.jpg" alt="logo de la fondation france s'engage" id="france"></div>
+        <div><img src="société-generale.jpg" alt="logo de la société generale" id="societe"></div>
+        <div><img src="orange.jpg" alt="logo du groupe orange" id="orange"></div>
+        <div><img src="aviva.jpg" alt="logo du groupe Aviva" id="aviva" ></div>
+        <div><img src="union-européenne.jpg" alt="logo de l'union européenne" id="union" ></div>
+    </div>
+  </section>
+<!-- le pied de page -->
+  <footer role="contentinfo">
+    <div>
+        <img src="logo-Simplon en blanc.png" alt="logo-de-simplon" id="simplon"> <br>
+         <box-icon type='logo' name='twitter' color="blue" class="réseau"></box-icon>
+         <box-icon name='facebook' type='logo' color='blue' class="réseau"></box-icon>
+         <box-icon name='instagram' type='logo' color='red' class="réseau"></box-icon>
+         <box-icon name='youtube' type='logo' color='red' class="réseau" ></box-icon>
+    </div>
+     <div>
+       <h2>Voir plus</h2>
+       <p>A propos</p>
+       <p>Notre histoire</p>
+       <p>Condition d'utilisation</p>
+       <p>Politique de confidentialité</p>
+       <p>FAQ</p>
+     </div>
+     <div>
+         <h2>Coordonnées</h2>
+         <p>Cité keur Goor Gi <br>
+         Dakar,Sicap,Liberté 2 <br>
+          Senegal</p>
+         <p>simplon@email.com <br>
+         help@simplon.com</p>
+         <p>(221) 77 456 78 90 <br>
+             (221) 77 654 32 10
+         </p>
+     </div>
+     <div><h2>Notre Newsletter</h2>
+         <p>Souscrivez-vous à notre <br>
+             newsletter pour ne manquer <br>
+             aucune de nos activités</p>
+ 
+       <input type="email" name="email" placeholder="Email" aria-label="email" aria-required="true" required id="email"><button aria-label="bouton joindre" id="btn-joindre">Joindre</button>
+    </div>
+  </footer>
+  <!-- partie des infos complèmentaires -->
+  <aside role="complimentary"> 
+    &copy; 2021  Simplon. All rights reserved.
+    <span>Made with by <box-icon name='heart' type='solid' color='black'></box-icon>SimplonP4</span></aside>
+</body>
+</html>
