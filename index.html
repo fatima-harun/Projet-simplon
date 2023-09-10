@@ -6,7 +6,6 @@
     <title>Simplon Sénégal</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="config.js" defer></script>
     <script src="fichier.js" defer></script>
 </head>
 <!-- chaque partie de la maquette sera répartie dans une section -->
@@ -15,11 +14,11 @@
     <nav role="navigation" aria-label="breadcrumb">
         <img src="les images/logo_simplon.jpg" alt="logo_simplon" id="logo-fabrique">
         <ul role="list">
-            <li role="listitem"><a href="">Accueil</a></li>
-            <li role="listitem"><a href="">Fabrique</a></li>
+            <li role="listitem"><a href="#">Accueil</a></li>
+            <li role="listitem"><a href="#fabrique">Fabrique</a></li>
             <li role="listitem"><a href="">Formations</a></li>
-            <li role="listitem"><a href="">Partenariats</a></li>
-            <li role="listitem" aria-currentt="page"><a href="">Espaces</a></li>
+            <li role="listitem"><a href="#partenariats">Partenariats</a></li>
+            <li role="listitem" aria-currentt="page"><a href="#">Espaces</a></li>
             <li><box-icon name='search'></box-icon></li>
             <li id="list-langue">
                 <select aria-label="choisir la langue française ou anglaise">
@@ -32,7 +31,7 @@
     </nav>
 </header>
   <!-- la section petite histoire -->
-      <section role="region">
+      <section role="region" id="fabrique">
         <h1>La petite histoire</h1>
         <div id="histoire">
             <h2>L'ouverture de la fabrique <br><span id="année">2017</span></h2>
@@ -273,7 +272,7 @@
  </div>
  </section>
 <!-- la section partenaire -->
-  <section role="region">
+  <section role="region" id="partenariats">
     <h2 class="titres">Nos partenaires</h2>
     <div class="partner" id="partner1">
         <div><img src="les images/fondation-france.jpg" alt="logo de la fondation france s'engage" id="france"></div>
