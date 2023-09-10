@@ -242,7 +242,7 @@ font-weight: bold;
     display:flex;
     justify-content: space-evenly;
     align-content:center ;
-    background-image: url("Design sans titre (2).png");
+    background-image: url("les images/Design sans titre (2).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2%;
@@ -451,7 +451,7 @@ textarea{
 footer{
     display: flex;
     justify-content:space-evenly;
-    background-image: url("Design sans titre (1).png");
+    background-image: url("les images/Design sans titre (1).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding:4%;
@@ -505,7 +505,7 @@ aside span{
     nav ul li {
         margin-right: 5%; 
     }
-    
+
     #paragraphe {
         display: none; 
     }
