@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Taches</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="fichier.js"></script>
+</head>
+<body>
+    <header aria-hidden="false">
+        <nav role="navigation" aria-label="breadcrumb">
+            <img src="les images/logo_simplon.jpg" alt="logo_simplon" id="logo-fabrique">
+            <ul role="list">
+                <li role="listitem"><a href="#">Accueil</a></li>
+                <li role="listitem"><a href="#fabrique">Fabrique</a></li>
+                <li role="listitem"><a href="">Formations</a></li>
+                <li role="listitem"><a href="#partenariats">Partenariats</a></li>
+                <li role="listitem" aria-currentt="page"><a href="#">Espaces</a></li>
+                <li><box-icon name='search'></box-icon></li>
+                <li id="list-langue">
+                    <select aria-label="choisir la langue française ou anglaise">
+                        <option value="Fr">Fr</option>
+                        <option value="En">En</option>
+                    </select>
+                    <button id="btn-contact">Contact</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gestionnaire de tache</h1>
+        <div class="gestionnaire">
+        <input type="text" placeholder="Ajouter une tâche" id="input-tache">
+        <label  class="btn-add">Ajouter</label>
+        </div>
+        <table>
+            <tr>
+                <th>Titre</th>
+                <th>Description</th>
+                <th>Date limite</th>
+                <th>Etat</th>
+                <th>Priorité</th>
+            </tr>
+            <tr>
+                 <td>
+                    <input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+                <td><input type="text" placeholder="Détails de la tache"></td>
+                <td><input type="date" id="date"></td>
+                <td>
+                    <select name="" id="">
+                        <option value="A faire">A faire</option>
+                        <option value="En cours">En cours</option>
+                        <option value="Terminer">Terminer</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                     <option value="forte">Forte</option>
+                     <option value="moyenne">Moyenne</option>
+                     <option value="faible">Faible</option>
+                    </select>
+                </td>
+                <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+            </tr>
+            <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+        <tr>
+             
+            <td><input type="checkbox"><label for="blue"><input type="text" placeholder="Nommez la tache"></label></td>
+            <td><input type="text" placeholder="Détails de la tache"></td>
+            <td><input type="date" id="date"></td>
+            <td>
+                <select name="" id="">
+                    <option value="A faire">A faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminer">Terminer</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                 <option value="forte">Forte</option>
+                 <option value="moyenne">Moyenne</option>
+                 <option value="faible">Faible</option>
+                </select>
+            </td>
+            <td><button  class="btn-remove"><box-icon type='solid' name='message-rounded-x' color="crimson"></box-icon></button></td>
+           
+        </tr>
+       
+        
+            
+        </table>
+    </main>
+<footer>
+    <div>
+        <img src="les images/logo-Simplon en blanc.png" alt="logo-de-simplon" id="simplon"> <br>
+         <box-icon type='logo' name='twitter' color="blue" class="réseau"></box-icon>
+         <box-icon name='facebook' type='logo' color='blue' class="réseau"></box-icon>
+         <box-icon name='instagram' type='logo' color='red' class="réseau"></box-icon>
+         <box-icon name='youtube' type='logo' color='red' class="réseau" ></box-icon>
+    </div>
+     <div>
+       <h2>Voir plus</h2>
+       <p>A propos</p>
+       <p>Notre histoire</p>
+       <p>Condition d'utilisation</p>
+       <p>Politique de confidentialité</p>
+       <p>FAQ</p>
+     </div>
+     <div>
+         <h2>Coordonnées</h2>
+         <p>Cité keur Goor Gi <br>
+         Dakar,Sicap,Liberté 2 <br>
+          Senegal</p>
+         <p>simplon@email.com <br>
+         help@simplon.com</p>
+         <p>(221) 77 456 78 90 <br>
+             (221) 77 654 32 10
+         </p>
+     </div>
+     <div><h2>Notre Newsletter</h2>
+         <p>Souscrivez-vous à notre <br>
+             newsletter pour ne manquer <br>
+             aucune de nos activités</p>
+ 
+       <input type="email" name="email" placeholder="Email" aria-label="email" aria-required="true" required id="email"><button aria-label="bouton joindre" id="btn-joindre">Joindre</button>
+    </div>
+  </footer>
+  <!-- partie des infos complèmentaires -->
+  <aside role="complimentary"> 
+    &copy; 2021  Simplon. All rights reserved.
+    <span>Made with by <box-icon name='heart' type='solid' color='black'></box-icon>SimplonP4</span></aside>
+</footer>
+</body>
+</html>

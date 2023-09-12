@@ -1,0 +1,135 @@
+#logo-fabrique{
+    height:auto ;
+    width:13% ;
+    margin-right: 7%;
+    margin-left: 3%;
+}
+header{
+    border: hidden;
+    padding:2%;
+    box-shadow: 5px 5px 25px rgb(230, 225, 225);
+}
+nav{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black
+}
+nav ul li a:hover{
+    color:rgb(199, 15, 52);
+    text-decoration-line: underline;
+    text-underline-offset: 3rem;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right:15%;
+    font-weight: 600;
+}
+#list-langue{
+    display: flex;
+}
+select{
+    margin-right:7%;
+    border: hidden;
+}
+#btn-contact{
+   background-color: crimson;
+   color: white;
+   padding: 6%;
+   border: hidden;
+   border-radius:12px;
+   Cursor:pointer
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+table{
+    border-collapse: separate;
+    margin: auto;
+    border-spacing: 15px;
+    margin-bottom: 6%;
+    border: solid thin ;
+    padding: 3%;
+}
+input,select{
+    border: none;
+}
+th, td {
+    text-align: left; 
+}
+h1{
+    text-align: center;
+    color:crimson;
+    margin-top: 4%;
+}
+.gestionnaire{
+    margin-bottom:3%;
+    margin-top: 5%;
+    text-align: center;
+}
+.btn-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-remove{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+#input-tache{
+    padding:1%;
+    padding-right:15%;
+    border:solid thin rgb(255, 250, 250);
+}
+.custom-button:hover {
+    background-color: #0056b3;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url("les images/Design sans titre (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4%;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color:rgb(182, 180, 180)
+}
+#btn-joindre{
+    background-color: rgb(192, 15, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#simplon{
+    height: auto;
+    width:55%;
+    margin-top:5%;
+}
+.réseau{
+    margin-top:6%;
+    height: auto;
+    width: 9%;
+    margin-left: 2%;
+}
+aside{
+    color:white;
+    background-color: crimson;
+    padding: 1.5%;
+    font-size:1em;
+}
+aside span{
+    margin-left: 61%;
+}
